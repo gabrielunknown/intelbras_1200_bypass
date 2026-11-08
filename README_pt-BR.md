@@ -26,6 +26,7 @@ esta vulnerabilidade isoladamente.
 | **Vetor CVSS v3.1** | `AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
 | **Pontuação CVSS v3.1** | **9.8 Crítico** |
 | **CVE** | CVE-2026-117083 |
+| **PoC** | Disponível neste repositório — exploit.pl |
 
 ---
 
@@ -104,8 +105,7 @@ limita a:
 
 ## Proof of Concept
 
-> **Nota:** O script PoC completo (`poc.pl`) está disponível neste repositório.
-> Sua liberação aguarda o prazo de divulgação coordenada com o fabricante.
+> **Nota:** O script PoC completo (`exploit.pl`) está disponível neste repositório.
 
 O exemplo abaixo demonstra o download não autenticado do backup de configuração —
 **uma dentre muitas** ações que o bypass torna possíveis.
