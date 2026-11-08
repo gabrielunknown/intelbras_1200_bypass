@@ -25,7 +25,7 @@ target network are fully compromised by this vulnerability alone.
 | **CVSS v3.1 vector** | `AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
 | **CVSS v3.1 score** | **9.8 Critical** |
 | **CVE** | CVE-2026-117083 |
-| **PoC** | Available in this repository — release pending coordinated disclosure deadline |
+| **PoC** | Available in this repository — exploit.pl |
 
 ---
 
@@ -98,8 +98,7 @@ host on the target network**. This includes but is not limited to:
 
 ## Proof of Concept
 
-> **Note:** The full PoC script (`poc.pl`) is available in this repository.
-> Its release is pending the coordinated disclosure deadline with the vendor.
+> **Note:** The PoC script (`exploit.pl`) is available in this repository.
 
 The example below demonstrates unauthenticated configuration backup download —
 **one of many** actions the bypass makes possible.
