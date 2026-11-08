@@ -2,7 +2,7 @@
 
 ![Severidade: Crítica](https://img.shields.io/badge/Severidade-Crítica-critical)
 ![CVSS 9.8](https://img.shields.io/badge/CVSS_v3.1-9.8-red)
-![CVE Pendente](https://img.shields.io/badge/CVE-Pendente-lightgrey)
+[![CVE-2026-117083](https://img.shields.io/badge/CVE-2026--117083-red)](https://www.cve.org/CVERecord?id=CVE-2026-117083)
 ![Divulgação: Coordenada](https://img.shields.io/badge/Divulgação-Coordenada-blue)
 
 Um bypass de autenticação de parâmetro único no servidor HTTP GoAhead embarcado
@@ -25,8 +25,7 @@ esta vulnerabilidade isoladamente.
 | **Vetor de ataque** | Rede — LAN (sem autenticação) |
 | **Vetor CVSS v3.1** | `AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
 | **Pontuação CVSS v3.1** | **9.8 Crítico** |
-| **CVE** | Pendente |
-| **PoC** | Disponível neste repositório — liberação aguarda prazo de divulgação coordenada |
+| **CVE** | CVE-2026-117083 |
 
 ---
 
@@ -162,14 +161,13 @@ outro endpoint do dispositivo. Os headers `Referer` e `Origin` contendo
 | 2026-09-23 | Confirmada em segundo dispositivo: RG 1200 v2.1.9 |
 | 2026-09-23 | Fabricante (Intelbras) notificado |
 | 2026-09-23 | Advisory público · Submissão ao MITRE CVE |
-| A definir | Resposta do fabricante / lançamento de patch |
-| A definir | Liberação do PoC completo |
+| 2026-11-XX | [CVE-2026-117083](https://www.cve.org/CVERecord?id=CVE-2026-117083) assigned by MITRE |
 
 ---
 
 ## Referências
 
-- [MITRE CVE — Pendente](https://cve.mitre.org)
+- [CVE-2026-117083](https://www.cve.org/CVERecord?id=CVE-2026-117083)
 - [Página do produto Intelbras RF 1200](https://www.intelbras.com/pt-br/roteador-ac-1200-dual-band-rf-1200/)
 - [Página do produto Intelbras RG 1200](https://www.intelbras.com/pt-br/roteador-ac-1200-dual-band-rg-1200/)
 - [Servidor Web GoAhead — EmbedThis](https://embedthis.com/goahead/)
