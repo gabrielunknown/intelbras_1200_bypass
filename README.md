@@ -2,7 +2,7 @@
 
 ![Severity: Critical](https://img.shields.io/badge/Severity-Critical-critical)
 ![CVSS 9.8](https://img.shields.io/badge/CVSS_v3.1-9.8-red)
-![CVE Pending](https://img.shields.io/badge/CVE-Pending-lightgrey)
+[![CVE-2026-117083](https://img.shields.io/badge/CVE-2026--117083-red)](https://www.cve.org/CVERecord?id=CVE-2026-117083)
 ![Disclosure: Coordinated](https://img.shields.io/badge/Disclosure-Coordinated-blue)
 
 A single-parameter authentication bypass in the GoAhead HTTP server shipped with
@@ -24,7 +24,7 @@ target network are fully compromised by this vulnerability alone.
 | **Attack vector** | Network — LAN (unauthenticated) |
 | **CVSS v3.1 vector** | `AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
 | **CVSS v3.1 score** | **9.8 Critical** |
-| **CVE** | Pending |
+| **CVE** | CVE-2026-117083 |
 | **PoC** | Available in this repository — release pending coordinated disclosure deadline |
 
 ---
@@ -161,7 +161,7 @@ endpoint on the device. The `Referer` and `Origin` headers containing
 
 ## References
 
-- [MITRE CVE — Pending](https://cve.mitre.org)
+- [CVE-2026-117083](https://www.cve.org/CVERecord?id=CVE-2026-117083)
 - [Intelbras RF 1200 Product Page](https://www.intelbras.com/pt-br/roteador-ac-1200-dual-band-rf-1200/)
 - [Intelbras RG 1200 Product Page](https://www.intelbras.com/pt-br/roteador-ac-1200-dual-band-rg-1200/)
 - [GoAhead Web Server](https://embedthis.com/goahead/)
