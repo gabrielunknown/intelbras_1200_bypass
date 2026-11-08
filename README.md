@@ -154,8 +154,7 @@ endpoint on the device. The `Referer` and `Origin` headers containing
 | 2026-09-23 | Confirmed on second device: RG 1200 v2.1.9 |
 | 2026-09-23 | Vendor (Intelbras) notified |
 | 2026-09-23 | Public advisory published; MITRE CVE submission |
-| TBD | Vendor response / patch release |
-| TBD | Full PoC release |
+| 2026-11-05 | CVE-2026-117083 assigned by MITRE |
 
 ---
 
